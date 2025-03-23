@@ -3,9 +3,8 @@
 "use strict";
 
 'use client';
-
-import react { useState, useEffect } from 'react';
-import CurrencyDollarIcon from '@heroicons/react/24/outline';
+import React { useState, useEffect } from 'react';
+import CurrencyDollarIcon from '@heroicons/react/24/outline/CurrencyDollarIcon';
 
 // Mock data for rates calculation
 const rateData = {
