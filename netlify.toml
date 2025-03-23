@@ -1,4 +1,4 @@
-[build]
+f[build]
   command = "npm install && npm run build"
   publish = ".next"
 
@@ -26,6 +26,3 @@
 
 [build.processing.images]
   compress = true
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
