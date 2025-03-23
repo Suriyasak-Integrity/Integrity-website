@@ -30,5 +30,19 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "description": "<<<<<<< HEAD\r # project-logistics\r =======\r # logistics-thailand",
+  "main": "check-jsx.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suriyasak-Integrity/project-logistics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Suriyasak-Integrity/project-logistics/issues"
+  },
+  "homepage": "https://github.com/Suriyasak-Integrity/project-logistics#readme"
 }
