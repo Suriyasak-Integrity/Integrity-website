@@ -3,7 +3,7 @@
 "use strict";
 
 'use client';
-import React { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import CurrencyDollarIcon from '@heroicons/react/24/outline/CurrencyDollarIcon';
 
 // Mock data for rates calculation
