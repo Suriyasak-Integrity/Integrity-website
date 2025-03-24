@@ -1,28 +1,36 @@
-import './globals.css';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/ThemeProvider';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Head from "next/head";
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import { Inter } from "next/font/google";
+import Layout from "@/components/Layout/Layout";
+import styles from "@/styles/Main.module.css";
 
 const inter = Inter({
-    subsets: ['latin']
+  subsets: ["latin"],
 });
 
-export const metadata = {
-    title: 'Integrity Logistics Thailand - Beyond the Average Freight Forwarder',
-    description: 'Professional freight forwarding and logistics solutions.',
-};
+export default function App({ Component, pageProps }: AppProps) {
+  const title = "App title";
 
-export default function RootLayout({ children }) {
-    return (
-        <html lang="en">
-            <body className={inter.className}>
-                <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-                    <Header />
-                    <main>{children}</main>
-                    <Footer />
-                </ThemeProvider>
-            </body>
-        </html>
-    );
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content="description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Layout>
+        <style jsx global>{`
+          html {
+            font-family: ${inter.style.fontFamily};
+          }
+        `}</style>
+
+        <main className={`${styles.main}`}>
+          <Component {...pageProps} />
+        </main>
+      </Layout>
+    </>
+  );
 }
