@@ -8,8 +8,8 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'], 
-            sourceType: 'module'   // ✅ จุดสำคัญ!! ให้ Babel อ่านเป็น ES Module
-          },
+            sourceType: 'module',  // ✅ จุดสำคัญ!! ให้ Babel อ่านเป็น ES Module
+          }
         },
       },
     ],
