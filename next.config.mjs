@@ -1,4 +1,9 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  experimental: {
+    appDir: true, // ✅ ถ้าใช้ Next.js 13+ app directory
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.(js|jsx)$/,
@@ -16,3 +21,5 @@ module.exports = {
     return config;
   },
 };
+
+export default nextConfig;
