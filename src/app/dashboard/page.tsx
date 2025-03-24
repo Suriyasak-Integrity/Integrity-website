@@ -57,7 +57,7 @@ const recentShipments = [
 ];
 
 // Status badge component
-function StatusBadge({ status }; { status: string }) {
+function StatusBadge({ status }: { status: string }) {
   let color;
   switch (status) {
     case 'In Transit':
