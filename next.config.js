@@ -1,5 +1,5 @@
 module.exports = {
-  webpack(config, { isServer }) {
+  webpack(config) {
     config.module.rules.push({
       test: /\.js$/,
       exclude: /node_modules/,
