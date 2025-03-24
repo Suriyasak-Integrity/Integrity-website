@@ -3,44 +3,44 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "description": "project-logistics logistics-thailand",
+  "main": "check-jsx.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start -H 0.0.0.0",
     "lint": "next lint"
-},
-"dependencies": {
-  "@babel/runtime": "^7.23.10",
-  "@heroicons/react": "^2.0.16",
-  "acorn": "^8.14.1",
-  "acorn-jsx": "^5.3.2",
-  "next": "^13.5.9",
-  "next-themes": "^0.2.1",
-  "react": "18.2.0",
-  "react-dom": "18.2.0"
-},
-"devDependencies": {
-  "@babel/plugin-transform-runtime": "^7.23.10", 
-  "@babel/plugin-transform-modules-commonjs": "^7.26.3",
-  "@babel/preset-env": "^7.26.9",
-  "@babel/preset-react": "^7.22.5",
-  "@types/node": "^18.15.3",
-  "@types/react": "^18.0.28",
-  "@types/react-dom": "^18.0.11",
-  "autoprefixer": "^10.4.14",
-  "babel-loader": "^10.0.0",
-  "eslint": "^8.36.0",
-  "eslint-config-next": "^13.5.6",
-  "postcss": "^8.4.21",
-  "tailwindcss": "^3.2.7",
-  "typescript": "^5.0.2",
-  "webpack-cli": "^5.1.4"
-},
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.10",
+    "@heroicons/react": "^2.0.16",
+    "acorn": "^8.14.1",
+    "acorn-jsx": "^5.3.2",
+    "next": "^13.5.9",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.22.5",
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^10.0.0",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.5.6",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^5.0.2",
+    "webpack-cli": "^5.1.4"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
-  "description":"project-logistics logistics-thailand",
-  "main": "check-jsx.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Suriyasak-Integrity/project-logistics.git"
@@ -48,7 +48,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Suriyasak-Integrity/project-logistics/issues"
   },
