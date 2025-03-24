@@ -1,5 +1,4 @@
-/* eslint-disable-next-line */
-/** @format */
+/* eslint-disable-next-line */ /** @format */ /** @type {module} */
 "use strict";
 
 'use client';
