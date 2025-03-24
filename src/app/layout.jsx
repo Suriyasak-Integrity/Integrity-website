@@ -4,7 +4,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
 const inter = Inter({ subsets: ['latin'] });
-export var metadata = {
+export const metadata = {
+  title: 'Int'
+};
   title: 'Integrity Logistics Thailand - Beyond the average Freight Forwarder',
   description: 'Comprehensive freight forwarding, customs clearance, and logistics solutions that go beyond expectations.',
 };
