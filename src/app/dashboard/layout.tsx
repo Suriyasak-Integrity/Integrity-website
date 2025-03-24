@@ -21,11 +21,11 @@ const sidebarLinks = [
   { name: 'Account Settings', href: '/dashboard/settings', icon: Cog6ToothIcon },
 ];
 
-export default function DashboardLayout({
-  children,
-}: {
+type DashboardLayoutProps = {
   children: React.ReactNode;
-}) {
+};
+
+export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
