@@ -3,9 +3,7 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
-
-const inter = Inter({ subsets: ['latin'] });
-
+var inter = Inter({ subsets: ['latin'] });
 export var metadata = {
   title: 'Integrity Logistics Thailand - Beyond the average Freight Forwarder',
   description: 'Comprehensive freight forwarding, customs clearance, and logistics solutions that go beyond expectations.',
