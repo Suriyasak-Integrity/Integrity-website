@@ -6,7 +6,8 @@
   NEXT_TELEMETRY_DISABLED = "1"
   NEXT_TYPESCRIPT_COMPILE_ERROR = "ignore"
   NODE_VERSION = "18"
-
+  GO_VERSION = "1.19"
+  
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
