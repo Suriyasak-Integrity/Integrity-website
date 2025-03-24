@@ -1,20 +1,21 @@
 [build]
   command = "npm run build"
-  publish = "build"
+  publish = ".next"             # ✅ สำคัญ: Next.js build output
   NODE_VERSION = "18"
 
 [build.environment]
   NPM_FLAGS = "--prefer-offline --no-audit"
   NEXT_TELEMETRY_DISABLED = "1"
+  NEXT_PRIVATE_TARGET = "server"       # ✅ บังคับ Next.js ใช้ server mode (SSR ทำงาน)
   NEXT_TYPESCRIPT_COMPILE_ERROR = "ignore"
   NODE_VERSION = "18"
   GO_VERSION = "1.19"
-  
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
 [build.processing]
-  skip_processing = false
+  skip_processing = true              # ✅ Netlify ไม่ต้องยุ่งกับ static files (เพราะ Next.js จัดการเอง)
 
 [build.processing.css]
   bundle = false
