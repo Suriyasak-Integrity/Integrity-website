@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import RatesCalculator from '@/components/RatesCalculator.mjs';
+
 
 // ✅ ประกาศเป็น const ให้ถูกต้อง
 const inter = Inter({ subsets: ['latin'] });
