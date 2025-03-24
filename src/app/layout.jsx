@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+// ✅ ต้องใช้ const
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
