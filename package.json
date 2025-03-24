@@ -10,7 +10,7 @@
     "lint": "next lint"
 },
 "dependencies": {
-  "@babel/runtime": "^7.23.10",            // ✅ แก้ x ให้เป็นเวอร์ชันจริง
+  "@babel/runtime": "^7.23.10",
   "@heroicons/react": "^2.0.16",
   "acorn": "^8.14.1",
   "acorn-jsx": "^5.3.2",
@@ -20,7 +20,7 @@
   "react-dom": "18.2.0"
 },
 "devDependencies": {
-  "@babel/plugin-transform-runtime": "^7.23.10",        // ✅ ย้าย plugin-transform-runtime ลง devDependencies
+  "@babel/plugin-transform-runtime": "^7.23.10", 
   "@babel/plugin-transform-modules-commonjs": "^7.26.3",
   "@babel/preset-env": "^7.26.9",
   "@babel/preset-react": "^7.22.5",
