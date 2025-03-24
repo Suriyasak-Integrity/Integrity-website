@@ -12,6 +12,7 @@ module.exports = {
         },
       },
     });
+    config.resolve.extensions.push('.js', '.jsx');
     return config;
   },
 };
