@@ -3,9 +3,8 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
-import RatesCalculator from '@/components/RatesCalculator.js';
+import RatesCalculator from '@/components/RatesCalculator'; // ✅ เอาแค่บรรทัดนี้พอ
 
-// ✅ ประกาศเป็น const ให้ถูกต้อง
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -16,7 +15,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      {/* ✅ ใช้ inter.className ตรงนี้ */}
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
