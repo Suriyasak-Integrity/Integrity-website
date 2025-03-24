@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
+export var metadata = {
   title: 'Integrity Logistics Thailand - Beyond the average Freight Forwarder',
   description: 'Comprehensive freight forwarding, customs clearance, and logistics solutions that go beyond expectations.',
 };
