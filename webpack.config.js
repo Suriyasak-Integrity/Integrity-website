@@ -2,13 +2,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
+        test: /\.js$/,             // ✅ ใช้กับไฟล์ .js
+        exclude: /node_modules/,   // ✅ ไม่รวม node_modules
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-            sourceType: 'module',  // เพิ่มการตั้งค่า sourceType เป็น module
+            presets: ['@babel/preset-env', '@babel/preset-react'], 
+            sourceType: 'module'   // ✅ จุดสำคัญ!! ให้ Babel อ่านเป็น ES Module
           },
         },
       },
