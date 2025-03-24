@@ -23,7 +23,7 @@ const sidebarLinks = [
 
 export default function DashboardLayout({
   children,
-} {
+}, {
   children: React.ReactNode;
 }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
