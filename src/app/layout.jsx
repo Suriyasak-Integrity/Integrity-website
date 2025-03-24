@@ -4,7 +4,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-// ✅ แก้ตรงนี้ให้ใช้ const
+// ✅ ต้องใช้ const ห้าม var ห้าม let
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -25,4 +25,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
