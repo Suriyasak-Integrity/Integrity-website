@@ -9,7 +9,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export default function App({ Component, pageProps }, "AppProps") {
+export default function App({ Component, pageProps }) {
   const title = "App title";
 
   return (
