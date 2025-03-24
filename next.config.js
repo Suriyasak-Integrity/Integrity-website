@@ -7,9 +7,9 @@ module.exports = {
         loader: 'babel-loader',
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
-          sourceType: 'module',  // เพิ่มการตั้งค่า sourceType เป็น module
-        },
-      },
+          sourceType: 'module'
+        }
+      }
     });
     return config;
   },
