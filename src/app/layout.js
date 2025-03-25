@@ -3,7 +3,8 @@ import { Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ThemeProvider';
-const fontLoader  = Inter({ subsets: ['latin'] });
+
+const fontLoader = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Integrity Logistics Thailand - Beyond the Average Freight Forwarder',
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={fontLoader.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <>
             <Header />
