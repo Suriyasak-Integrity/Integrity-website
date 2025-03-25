@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {/* ✅ Wrap adjacent JSX with React Fragment */}
           <>
             <Header />
             <main>{children}</main>
