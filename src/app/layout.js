@@ -12,10 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>  );
-}
-
+      <body className={inter.className}>
+        {/* ✅ ครอบทุกอย่างด้วย ThemeProvider */}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
           <main>{children}</main>
